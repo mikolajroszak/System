@@ -1,4 +1,4 @@
-from php:7.1-fpm
+from php:7.4.33-fpm
 # https://github.com/netroby/docker-php-fpm/blob/master/Dockerfile
 
 RUN apt-get update && apt-get install -y \
